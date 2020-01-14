@@ -1,0 +1,11 @@
+
+
+.inputs{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.playlistDisplay{
+    display:flex;
+    justify-content: flex-start;
+}
