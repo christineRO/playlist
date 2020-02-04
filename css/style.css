@@ -1,14 +1,34 @@
-
-
 .inputs{
     display:flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 15px;
 }
 
-.playlistDisplay{
-    display:flex;
-    justify-content: flex-start;
+#addSongInput {
+    text-align: right;
+    margin: 10px;
 }
+
+.playlistDisplay {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    border-radius: 10px;
+    margin-right: 45px;
+    padding: 15px;
+}
+
+/* .playlistDisplay{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 200px;
+    padding: 30px;
+
+    text-align: center;
+}
+*/
 
 ul {
     list-style-type: none;
